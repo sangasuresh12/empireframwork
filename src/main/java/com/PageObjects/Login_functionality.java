@@ -36,7 +36,7 @@ public class Login_functionality extends Testbase {
 	
 	
 	
-	public Homepage Dologin() {
+	public Homepage Dologin() throws Throwable {
 		
 	username.sendKeys(props.getProperty("username"));	
 	password.sendKeys(props.getProperty("password"));

@@ -28,7 +28,7 @@ public class LoginTest extends Testbase {
 
 	@Test
 
-	public void Verifylogin() {
+	public void Verifylogin() throws Throwable {
 
 		lf.Dologin();
 
